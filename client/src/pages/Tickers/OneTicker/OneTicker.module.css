@@ -1,0 +1,27 @@
+.data{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.elem{
+  display: flex;
+  margin-right: 10px;
+  border: solid 1px rgb(223, 217, 217);
+  border-radius: 10px;
+  align-items: center;
+  padding: 0 5px;
+  pointer-events: visible;
+}
+.datagreen{
+ composes:data;
+ color: rgb(6, 221, 6);
+}
+.datared{
+ composes:data;
+ color: red;
+}
+.arrowup{
+  fill: green;
+}
+.arrowdown{
+  fill:red;
+}
